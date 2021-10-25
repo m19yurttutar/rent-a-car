@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using Business.Abstract;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -41,7 +43,8 @@ namespace Business.Concrete
 
         public Result Add(Car car)
         {
-            //Business codes
+            ValidationTool.Validate(new CarValidator(), car);
+            
             _carDal.Add(car);
             return new SuccessResult();
         }

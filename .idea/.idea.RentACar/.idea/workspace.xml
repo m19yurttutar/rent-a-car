@@ -9,9 +9,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="054933d2-4ded-4df5-8385-22f30abc0faf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleUI/ConsoleUI.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RentACar.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RentACar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RentACar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Business.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Business.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Concrete/CarManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Concrete/CarManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/WebAPI.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +143,17 @@
       <workItem from="1635069242813" duration="17588000" />
       <workItem from="1635097458277" duration="1715000" />
       <workItem from="1635099211987" duration="3553000" />
+      <workItem from="1635103753426" duration="234000" />
+      <workItem from="1635154107803" duration="3726000" />
     </task>
+    <task id="LOCAL-00001" summary="24.10.2021 WebAPI Created">
+      <created>1635103886526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635103886526</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,5 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="24.10.2021 WebAPI Created" />
+    <option name="LAST_COMMIT_MESSAGE" value="24.10.2021 WebAPI Created" />
   </component>
 </project>
